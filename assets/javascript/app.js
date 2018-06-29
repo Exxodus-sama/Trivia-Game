@@ -54,7 +54,8 @@ function reset(){
     blankAns =0;
     questionNumber = 0;
     timer = 30;
-
+    answerChoices();
+    countdown();
 }
 
 function right(){
